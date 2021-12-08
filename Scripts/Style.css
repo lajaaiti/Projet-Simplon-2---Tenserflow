@@ -1,0 +1,52 @@
+    @charset "UTF-8";
+    body {
+        background-color: #2B42FF;
+        height: auto;
+        width: auto;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: lightgray;
+        width: auto;
+    }
+    
+    .Container {
+        height: 100%;
+        width: 100%;
+        background-color: lightsalmon;
+    }
+    
+    .Screen {
+        max-height: 75%;
+        width: 75%;
+        background-color: black;
+    }
+    
+    .Screen>img:nth-child(1) {
+        width: 100%;
+    }
+    
+    .Bot {
+        height: auto;
+        width: 25%;
+        background-color: maroon;
+        margin-left: 75%;
+        margin-top: -60%;
+    }
+    
+    .Bot>img:nth-child(1) {
+        width: 100%;
+    }
+    
+    .Switch {
+        height: 25%;
+        width: 15%;
+        margin-left: 80%;
+        background-color: limegreen;
+        border-radius: 100%;
+    }
+    
+    .Switch>img:nth-child(1) {
+        width: 100%;
+    }

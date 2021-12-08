@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 600px;
+    width: 600px;
+    background-color: rgb(130, 185, 236);
+}
+
+#Title {
+    /*background-color: crimson;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: darkgoldenrod;
+}
+
+#Cam {
+    height: 350px;
+    width: 350px;
+    border: 5px solid black;
+    background-color: darkgray;
+    margin-left: 25px;
+}
+
+#Webcam {
+    height: 100%;
+    width: 100%;
+}
+
+#btn {
+    height: 125px;
+    width: 125px;
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
